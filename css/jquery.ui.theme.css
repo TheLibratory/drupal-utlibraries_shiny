@@ -11,7 +11,7 @@
 }
 
 .ui-widget-content {
-  border: solid 1px #ccc;
+  border: solid 1px #cccccc;
 }
 
 /**
@@ -35,7 +35,7 @@
 .ui-widget-content .ui-state-highlight {
   color: #840;
   background: #fe6;
-  border: solid 1px #ed5;
+  border: solid 1px #eedd55;
 }
 
 .ui-state-error,
@@ -800,7 +800,7 @@
 }
 
 .ui-accordion .ui-accordion-header {
-  border: solid 1px #ccc;
+  border: solid 1px #cccccc;
   text-transform: uppercase;
 }
 
@@ -821,7 +821,7 @@
 
 .ui-accordion .ui-accordion-content {
   padding: 1em 2.2em;
-  border: solid 1px #ccc;
+  border: solid 1px #cccccc;
   border-top: 0;
 }
 
@@ -836,7 +836,7 @@
   padding: 5px 10px 4px;
   margin: 0;
   line-height: 20px;
-  border-bottom: solid 1px #ccc;
+  border-bottom: solid 1px #cccccc;
   -moz-border-radius-bottomleft: 0;
   -webkit-border-bottom-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -879,7 +879,7 @@
  */
 .ui-dialog {
   background: #fff;
-  border: solid 1px #ccc;
+  border: solid 1px #cccccc;
   padding: 0;
 }
 
@@ -929,7 +929,7 @@
  * Slider
  */
 .ui-slider {
-  border: solid 1px #ccc;
+  border: solid 1px #cccccc;
 }
 
 .ui-slider .ui-slider-range {
@@ -951,7 +951,7 @@
 .ui-slider .ui-slider-handle:active {
   background: #666;
   color: #fff;
-  border: solid 1px #555;
+  border: solid 1px #555555;
 }
 
 /**
