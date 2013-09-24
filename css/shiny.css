@@ -529,8 +529,13 @@ body.in-maintenance #footer {
   color: #36a2f6;
   text-decoration: underline;
 }
-.breadcrumb span {
-  background: transparent url("../images/breadcrumb.png") no-repeat 0 0;
+.breadcrumb span.delimiter {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url("../images/breadcrumb.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   height: 10px;
   margin-top: 6px;
   width: 10px;

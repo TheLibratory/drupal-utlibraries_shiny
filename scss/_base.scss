@@ -76,3 +76,20 @@ $serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Deja
 @function calc-em($target-px, $context) {
   @return ($target-px / $context) * 1em;
 }
+
+@mixin hide-text {
+  $approximate_em_value: 12px / 1em;
+  $wider_than_any_screen: -9999em;
+  text-indent: $wider_than_any_screen * $approximate_em_value;
+  overflow: hidden;
+  text-align: left;
+}
+
+@mixin replace-text($img, $x: 50%, $y: 50%) {
+  @include hide-text;
+  background: {
+    image: url($img);
+    repeat: no-repeat;
+    position: $x $y;
+  }
+}

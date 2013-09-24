@@ -4,7 +4,7 @@
 div.vertical-tabs {
   background: white url(../images/fc.png) repeat-y 0 0;
   /* LTR */
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   margin: 10px 0;
   position: relative;
 }
@@ -16,7 +16,7 @@ fieldset.vertical-tabs-pane {
 }
 
 div.vertical-tabs .vertical-tabs-list {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #cccccc;
   float: left;
   /* LTR */
   font-size: 1em;
@@ -34,7 +34,7 @@ div.vertical-tabs ul li.vertical-tab-button {
 }
 
 div.vertical-tabs ul li.vertical-tab-button a {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
   display: block;
   padding: 10px;
 }
@@ -68,7 +68,7 @@ div.vertical-tabs ul li.selected a:active {
   background: #fff;
   border-right-color: #fff;
   /* LTR */
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
 }
 
 div.vertical-tabs ul li.first.selected a,
