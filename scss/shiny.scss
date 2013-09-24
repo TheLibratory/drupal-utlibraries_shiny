@@ -445,8 +445,9 @@ body.in-maintenance #footer {
     }
   }
 
-  span {
-    background: transparent url("../images/breadcrumb.png") no-repeat 0 0;
+  span.delimiter {
+    @include replace-text ("../images/breadcrumb.png");
+    // background: transparent url("../images/breadcrumb.png") no-repeat 0 0;
     height: 10px;
     margin-top: 6px;
     width: 10px;
