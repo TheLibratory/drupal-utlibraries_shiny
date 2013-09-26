@@ -895,12 +895,6 @@ div.form-type-password.confirm-parent {
 
 body.role-administrator div.form-item-current-pass,
 body.role-administrator div.form-type-password.password-parent,
-body.role-administrator div.form-type-password.confirm-parent,
-body.role-tis-staff div.form-item-current-pass,
-body.role-tis-staff div.form-type-password.password-parent,
-body.role-tis-staff div.form-type-password.confirm-parent,
-body.role-tis-gra div.form-item-current-pass,
-body.role-tis-gra div.form-type-password.password-parent,
-body.role-tis-gra div.form-type-password.confirm-parent {
+body.role-administrator div.form-type-password.confirm-parent {
   display: block;
 }

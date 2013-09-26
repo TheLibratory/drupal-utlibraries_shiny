@@ -659,3 +659,23 @@ html.js input.throbbing {
 #user-filter-form #edit-actions {
   background: transparent;
 }
+
+/**
+ * user/id/edit
+*/
+
+div.form-item-current-pass,
+div.form-type-password.password-parent,
+div.form-type-password.confirm-parent {
+  display: none;
+}
+
+body.role-administrator,
+body.role-tis-staff,
+body.role-tis-gra {
+  div.form-item-current-pass,
+  div.form-type-password.password-parent,
+  div.form-type-password.confirm-parent {
+    display: block;
+  }
+}
