@@ -670,9 +670,7 @@ div.form-type-password.confirm-parent {
   display: none;
 }
 
-body.role-administrator,
-body.role-tis-staff,
-body.role-tis-gra {
+body.role-administrator {
   div.form-item-current-pass,
   div.form-type-password.password-parent,
   div.form-type-password.confirm-parent {
