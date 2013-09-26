@@ -26,6 +26,13 @@ function shiny_preprocess_html(&$vars) {
   drupal_add_css(path_to_theme() . '/css/ie7.css', array('group' => CSS_THEME, 'browsers' => array('IE' => 'lte IE 7', '!IE' => FALSE), 'weight' => 999, 'preprocess' => FALSE));
   // Add conditional CSS for IE6.
   drupal_add_css(path_to_theme() . '/css/ie6.css', array('group' => CSS_THEME, 'browsers' => array('IE' => 'lte IE 6', '!IE' => FALSE), 'weight' => 999, 'preprocess' => FALSE));
+  $body_classes = array($vars['classes_array']);
+  if ($vars['user']) {
+    foreach($vars['user']->roles as $key => $role){
+      $role_class = 'role-' .strtolower(str_replace(' ', '-', $role));
+      $vars['classes_array'][] = $role_class;
+    }
+  }
 }
 
 /**
