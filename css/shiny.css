@@ -883,3 +883,24 @@ html.js input.throbbing {
 #user-filter-form #edit-actions {
   background: transparent;
 }
+
+/**
+ * user/id/edit
+*/
+div.form-item-current-pass,
+div.form-type-password.password-parent,
+div.form-type-password.confirm-parent {
+  display: none;
+}
+
+body.role-administrator div.form-item-current-pass,
+body.role-administrator div.form-type-password.password-parent,
+body.role-administrator div.form-type-password.confirm-parent,
+body.role-tis-staff div.form-item-current-pass,
+body.role-tis-staff div.form-type-password.password-parent,
+body.role-tis-staff div.form-type-password.confirm-parent,
+body.role-tis-gra div.form-item-current-pass,
+body.role-tis-gra div.form-type-password.password-parent,
+body.role-tis-gra div.form-type-password.confirm-parent {
+  display: block;
+}
