@@ -902,8 +902,17 @@ body.role-administrator div.form-type-password.confirm-parent {
 /**
  * admin/people
 */
-body.page-user-edit input#edit-submit-admin-views-user,
-body.page-user-edit input#edit-reset {
+body.page-admin-people #edit-submit-admin-views-user,
+body.page-admin-people #edit-reset {
+  margin-top: 22px;
+  margin-right: 0;
+}
+
+/**
+ * admin/content
+*/
+body.page-admin-content #edit-submit-admin-views-node,
+body.page-admin-content #edit-reset {
   margin-top: 22px;
   margin-right: 0;
 }
