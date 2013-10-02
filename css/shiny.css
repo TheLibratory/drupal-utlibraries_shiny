@@ -905,7 +905,7 @@ body.role-administrator div.form-type-password.confirm-parent {
 body.page-admin-people #edit-submit-admin-views-user,
 body.page-admin-people #edit-reset {
   margin-top: 22px;
-  margin-right: 0;
+  margin-right: 15px;
 }
 
 /**
@@ -914,5 +914,5 @@ body.page-admin-people #edit-reset {
 body.page-admin-content #edit-submit-admin-views-node,
 body.page-admin-content #edit-reset {
   margin-top: 22px;
-  margin-right: 0;
+  margin-right: 15px;
 }
