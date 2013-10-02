@@ -677,3 +677,15 @@ body.role-administrator {
     display: block;
   }
 }
+
+/**
+ * admin/people
+*/
+
+body.page-user-edit {
+  input#edit-submit-admin-views-user,
+  input#edit-reset {
+    margin-top: 22px;
+    margin-right: 0;
+  }
+}

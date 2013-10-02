@@ -898,3 +898,12 @@ body.role-administrator div.form-type-password.password-parent,
 body.role-administrator div.form-type-password.confirm-parent {
   display: block;
 }
+
+/**
+ * admin/people
+*/
+body.page-user-edit input#edit-submit-admin-views-user,
+body.page-user-edit input#edit-reset {
+  margin-top: 22px;
+  margin-right: 0;
+}
