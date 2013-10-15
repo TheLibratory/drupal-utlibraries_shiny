@@ -712,7 +712,7 @@ select.form-select:focus {
 //   background-position: 100% -16px;
 // }
 html.js input.form-autocomplete {
-  background-image: image-url('book_throbber.gif');
+  background: transparent image-url('book_throbber.gif') no-repeat 99% 7px;
 }
 .ajax-progress .throbber {
   background: transparent image-url('book_throbber.gif') no-repeat 0px -18px;
