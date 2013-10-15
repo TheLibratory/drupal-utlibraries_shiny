@@ -681,11 +681,17 @@ td.views-field-operations-dropbutton {
   outline: 0;
   padding: 4px 5px;
 }
-html.js .views-exposed-form .form-item input.form-autocomplete {
-  background-position: 100% 6px;
+// html.js .views-exposed-form .form-item input.form-autocomplete {
+//   background-position: 100% 6px;
+// }
+// html.js .views-exposed-form .form-item input.throbbing {
+//   background-position: 100% -14px;
+// }
+html.js input.form-autocomplete {
+  background-image: image-url('book_throbber.gif');
 }
-html.js .views-exposed-form .form-item input.throbbing {
-  background-position: 100% -14px;
+.ajax-progress .throbber {
+  background: transparent image-url('book_throbber.gif') no-repeat 0px -18px;
 }
 .commerce-backoffice-view .views-exposed-form .date-padding .form-item {
   margin-top: 0;

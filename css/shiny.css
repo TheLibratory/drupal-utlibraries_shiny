@@ -856,12 +856,11 @@ fieldset.collapsed {
 }
 
 html.js input.form-autocomplete {
-  background-position: 100% 7px;
-  padding: 3px 5px;
+  background-image: url('/d7/sites/all/themes/utlibraries_shiny/../images/book_throbber.gif');
 }
 
-html.js input.throbbing {
-  background-position: 100% -14px;
+.ajax-progress .throbber {
+  background: transparent url('/d7/sites/all/themes/utlibraries_shiny/../images/book_throbber.gif') no-repeat 0px -18px;
 }
 
 /**

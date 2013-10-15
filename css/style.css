@@ -858,11 +858,11 @@ select.form-select:focus {
 }
 
 html.js input.form-autocomplete {
-  background-position: 100% 4px;
+  background-image: url('/d7/sites/all/themes/utlibraries_shiny/images/book_throbber.gif?1381871641');
 }
 
-html.js input.throbbing {
-  background-position: 100% -16px;
+.ajax-progress .throbber {
+  background: transparent url('/d7/sites/all/themes/utlibraries_shiny/images/book_throbber.gif?1381871641') no-repeat 0px -18px;
 }
 
 ul.action-links {

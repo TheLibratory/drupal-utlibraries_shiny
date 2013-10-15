@@ -636,12 +636,18 @@ ul.pager li.pager-last {
 fieldset.collapsed {
   padding-left: 0; /* LTR */
 }
+// html.js input.form-autocomplete {
+//   background-position: 100% 7px;
+//   padding: 3px 5px;
+// }
+// html.js input.throbbing {
+//   background-position: 100% -14px;
+// }
 html.js input.form-autocomplete {
-  background-position: 100% 7px;
-  padding: 3px 5px;
+  background-image: image-url('book_throbber.gif');
 }
-html.js input.throbbing {
-  background-position: 100% -14px;
+.ajax-progress .throbber {
+  background: transparent image-url('book_throbber.gif') no-repeat 0px -18px;
 }
 /**
 * admin/modules
