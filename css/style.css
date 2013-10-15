@@ -858,7 +858,9 @@ select.form-select:focus {
 }
 
 html.js input.form-autocomplete {
-  background: transparent url('/d7/sites/all/themes/shiny/images/book_throbber.gif?1381874029') no-repeat 99% 7px;
+  background-image: url('/d7/sites/all/themes/shiny/images/book_throbber.gif?1381874029');
+  background-position: 99% 8px;
+  background-repeat: no-repeat;
 }
 
 .ajax-progress .throbber {
