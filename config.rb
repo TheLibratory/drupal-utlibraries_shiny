@@ -1,10 +1,10 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/d7/sites/all/themes/utlibraries_shiny"
+http_path = "/d7/sites/all/themes/shiny"
 css_dir = "css"
 sass_dir = "scss"
-images_dir = "../images"
+images_dir = "images"
 javascripts_dir = "js"
 
 # You can select your preferred output style here (can be overridden via the command line):
