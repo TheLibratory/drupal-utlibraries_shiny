@@ -889,12 +889,12 @@ td.views-field-operations-dropbutton .ctools-dropbutton-processed {
   padding: 4px 5px;
 }
 
-html.js .views-exposed-form .form-item input.form-autocomplete {
-  background-position: 100% 6px;
+html.js input.form-autocomplete {
+  background-image: url('/d7/sites/all/themes/shiny/images/book_throbber.gif?1381874029');
 }
 
-html.js .views-exposed-form .form-item input.throbbing {
-  background-position: 100% -14px;
+.ajax-progress .throbber {
+  background: transparent url('/d7/sites/all/themes/shiny/images/book_throbber.gif?1381874029') no-repeat 0px -18px;
 }
 
 .commerce-backoffice-view .views-exposed-form .date-padding .form-item {
