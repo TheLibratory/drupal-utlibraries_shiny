@@ -699,3 +699,39 @@ body.page-admin-content {
     margin-right: 15px;
   }
 }
+/**
+ * Calendar Event Admin Styling
+*/
+.group-cal-form-top {
+  #edit-field-cal-event-room-und-0-value {
+    width: 200px;
+  }
+  #edit-field-name-field-cal-event-date {
+    .fieldset {
+      border: 0;
+    }
+  }
+  .field-name-field-cal-event-date {
+    legend span {
+      font-size: 15px;
+      font-weight: 700;
+      padding-left: 0;
+    }
+    fieldset.form-wrapper {
+      padding-left: 7px;
+      margin-left: -8px;
+    }
+    .fieldset-wrapper {
+      padding-left: 0;
+    }
+  }
+  #edit-field-cal-event-date-und-0-rrule-weekly-interval {
+    width: 35px;
+  }
+  .form-item-field-cal-campus-include-und {
+    label {
+      font-size: 15px;
+      font-weight: 700;
+    }
+  }
+}

@@ -856,11 +856,11 @@ fieldset.collapsed {
 }
 
 html.js input.form-autocomplete {
-  background-image: url('/d7/sites/all/themes/shiny/images/book_throbber.gif?1381874029');
+  background-image: url('/d7/sites/all/themes/shiny/images/book_throbber.gif?1392311839');
 }
 
 .ajax-progress .throbber {
-  background: transparent url('/d7/sites/all/themes/shiny/images/book_throbber.gif?1381874029') no-repeat 0px -18px;
+  background: transparent url('/d7/sites/all/themes/shiny/images/book_throbber.gif?1392311839') no-repeat 0px -18px;
 }
 
 /**
@@ -914,4 +914,33 @@ body.page-admin-content #edit-submit-admin-views-node,
 body.page-admin-content #edit-reset {
   margin-top: 22px;
   margin-right: 15px;
+}
+
+/**
+ * Calendar Event Admin Styling
+*/
+.group-cal-form-top #edit-field-cal-event-room-und-0-value {
+  width: 200px;
+}
+.group-cal-form-top #edit-field-name-field-cal-event-date .fieldset {
+  border: 0;
+}
+.group-cal-form-top .field-name-field-cal-event-date legend span {
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 0;
+}
+.group-cal-form-top .field-name-field-cal-event-date fieldset.form-wrapper {
+  padding-left: 7px;
+  margin-left: -8px;
+}
+.group-cal-form-top .field-name-field-cal-event-date .fieldset-wrapper {
+  padding-left: 0;
+}
+.group-cal-form-top #edit-field-cal-event-date-und-0-rrule-weekly-interval {
+  width: 35px;
+}
+.group-cal-form-top .form-item-field-cal-campus-include-und label {
+  font-size: 15px;
+  font-weight: 700;
 }

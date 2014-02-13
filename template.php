@@ -139,3 +139,19 @@ function shiny_system_info_alter(&$info, $file, $type) {
     $info['overlay_regions'][] = 'footer';
   }
 }
+/**
+  * Slightly ugly method of moving the helper text between the label and field like a sane person
+  * Method taken from https://groups.drupal.org/node/206593#comment-844763
+  *
+  */
+function shiny_text_format_wrapper($variables) {
+  $element = $variables['element'];
+  $output = '<div class="text-format-wrapper">';
+  $output .= $element['#children'];
+  $output .= "</div>\n";
+
+  $description = $element['#description'] ? '<div class="description">' . $element['#description'] . '</div>' : '';
+  $output  = str_replace('<div class="form-textarea-wrapper"', $description.'<div class="form-textarea-wrapper"',$output);
+
+  return $output;
+}
