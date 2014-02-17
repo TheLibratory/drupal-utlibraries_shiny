@@ -944,3 +944,11 @@ body.page-admin-content #edit-reset {
   font-size: 15px;
   font-weight: 700;
 }
+
+/**
+ * User Profile Edit Page Styling
+*/
+.page-user-edit #edit-og-user-node1,
+.page-user-edit #edit-field-assoc-collection {
+  display: none;
+}
