@@ -735,3 +735,12 @@ body.page-admin-content {
     }
   }
 }
+
+
+/**
+ * User Profile Edit Page Styling
+*/
+.page-user-edit #edit-og-user-node1,
+.page-user-edit #edit-field-assoc-collection {
+  display: none;
+}
